@@ -1,0 +1,12 @@
+descriptorVersion: v4
+name: pn-343826ca-2f75f095-entandodemo-sd-banking
+image: 'docker.io/entandodemo/sd-banking@sha256:2674bc5668c68260b426f4fd98e9559a9636a897958f784732fac486c72277df'
+dbms: none
+healthCheckPath: /management/health
+ingressPath: /banking
+roles:
+  - task-list
+permissions: []
+environmentVariables:
+  - name: ENTANDO_ECR_INGRESS_URL
+    value: 'http://qeoned-app.apps.okd4-10.awsentando.net/digital-exchange'

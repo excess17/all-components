@@ -1,0 +1,13 @@
+code: homepage
+parentCode: homepage
+titles:
+  en: Home
+  it: Home
+pageModel: home
+ownerGroup: free
+joinGroups: []
+displayedInMenu: true
+seo: false
+charset: utf8
+status: published
+widgets: []

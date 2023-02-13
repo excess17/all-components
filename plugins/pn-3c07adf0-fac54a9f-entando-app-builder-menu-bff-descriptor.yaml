@@ -1,0 +1,10 @@
+descriptorVersion: v4
+name: pn-3c07adf0-fac54a9f-entando-app-builder-menu-bff
+image: 'registry.hub.docker.com/entando/app-builder-menu-bff@sha256:72271696324e41f3f277324163fc6dbffb3f3b0478499bfc0df77a1410d31db5'
+dbms: none
+healthCheckPath: /health
+ingressPath: /entando-epc-bootstrap-3c07adf0/app-builder-menu-bff
+permissions: []
+environmentVariables:
+  - name: ENTANDO_ECR_INGRESS_URL
+    value: 'http://qeoned-app.apps.okd4-10.awsentando.net/digital-exchange'

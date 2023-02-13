@@ -1,0 +1,33 @@
+code: news
+parentCode: my_homepage
+titles:
+  en: News
+  it: News
+pageModel: content-page
+ownerGroup: free
+joinGroups: []
+displayedInMenu: false
+seo: false
+charset: utf-8
+status: published
+widgets:
+  - code: logo
+    config: null
+    pos: 0
+  - code: navigation-menu
+    config:
+      navSpec: code(my_homepage) + code(my_homepage).children
+    pos: 1
+  - code: search_form
+    config: null
+    pos: 2
+  - code: keycloak-login
+    config: null
+    pos: 3
+  - code: content_viewer
+    config: null
+    pos: 4
+  - code: navigation-menu
+    config:
+      navSpec: code(sitemap)
+    pos: 8

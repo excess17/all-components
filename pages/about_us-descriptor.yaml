@@ -1,0 +1,37 @@
+code: about_us
+parentCode: my_homepage
+titles:
+  en: About Us
+  it: Chi Siamo
+pageModel: 1-column
+ownerGroup: free
+joinGroups: []
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets:
+  - code: logo
+    config: null
+    pos: 0
+  - code: navigation-menu
+    config:
+      navSpec: code(my_homepage) + code(my_homepage).children
+    pos: 1
+  - code: search_form
+    config: null
+    pos: 2
+  - code: keycloak-login
+    config: null
+    pos: 3
+  - code: content_viewer
+    config:
+      contentDescription: Sample - About Us
+      ownerGroup: free
+      contentId: TCL6
+      joinGroups: '[]'
+    pos: 4
+  - code: navigation-menu
+    config:
+      navSpec: code(sitemap)
+    pos: 8
