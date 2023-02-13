@@ -273,5 +273,4 @@ components:
     - languages/languages-descriptor.yaml
   plugins:
     - plugins/pn-343826ca-2f75f095-entandodemo-sd-banking-descriptor.yaml
-    - plugins/pn-3c07adf0-fac54a9f-entando-app-builder-menu-bff-descriptor.yaml
     - plugins/pn-3cd5f745-251faff0-entandodemo-sd-customer-descriptor.yaml
